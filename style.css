@@ -1,0 +1,160 @@
+body{
+    background-image: url("Pictures/Background/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar-brand-text1{
+    color: gray;
+}
+.navbar-brand-text2{
+    color: darkgrey;
+}
+.navbar{
+    margin: auto;
+    position: fixed!important;
+    top: 0!important;
+    width: 90%!important;
+    z-index: 10000!important;
+    width: 90%!important;
+    left: 0!important;
+    right: 0!important;
+    z-index: 99999!important;
+}
+.height1{
+    height: 200px;
+}
+/* Footer CSS Start */
+.my-footer{
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+    border-radius: 30px;
+}
+.footer-text{
+    margin-top: 10xp!important;
+    text-align: center;
+}
+.footer-copy-text{
+    color: gray;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  /* Footer CSS End */
+
+/* Login / Register CSS Start */
+.title {
+    color:#000000;
+  }
+  section form p a{
+      text-decoration: none;
+  }
+  .box {
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .box input[type="text"],
+  .box input[type="email"],
+  .box input[type="password"], 
+  .box input[type="file"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+  }
+  .dosya
+  {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+  }
+  .box input[type="text"]:focus,
+  .box input[type="password"]:focus {
+    border-color: #2ecc71;
+  }
+  
+  .box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    width: 300px;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  
+  .box input[type="submit"]:hover {
+    background: #2ecc71;
+  }
+ .yüzvh{
+     height: 80vh;
+     width: 100%;
+ }
+ /* Login Resigster CSS End */
